@@ -32,24 +32,34 @@ public class Main {
 
             switch (escolha) {
                 case 1:
+                    AtividadeUm atividadeUm = new AtividadeUm();
                     break;
                 case 2:
+                    AtividadeDois atividadeDois = new AtividadeDois();
                     break;
                 case 3:
+                    AtividadeTres atividadeTres = new AtividadeTres();
                     break;
                 case 4:
+                    AtividadeQuatro atividadeQuatro = new AtividadeQuatro();
                     break;
                 case 5:
+                    AtividadeCinco atividadeCinco = new AtividadeCinco();
                     break;
                 case 6:
+                    AtividadeSeis atividadeSeis = new AtividadeSeis();
                     break;
                 case 7:
+                    AtividadeSete atividadeSete = new AtividadeSete();
                     break;
                 case 8:
+                    AtividadeOito atividadeOito = new AtividadeOito();
                     break;
                 case 9:
+                    AtividadeNove atividadeNove = new AtividadeNove();
                     break;
                 case 10:
+                    AtividadeDez atividadeDez = new AtividadeDez();
                     break;
                 case 0:
                     break;
