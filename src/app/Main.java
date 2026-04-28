@@ -16,7 +16,7 @@ public class Main {
                 "5 - Verificando se uma String contém uma Substring\n" +
                 "6 - Formatando números\n" +
                 "7 - Validando códigos de referência\n" +
-                "8 - Validando CPFn\n" +
+                "8 - Validando CPF\n" +
                 "9 - Extraindo hashtags de um texto\n" +
                 "10 - Validando senhas com Regex\n" +
                 "0 - Sair";
@@ -45,6 +45,7 @@ public class Main {
                     break;
                 case 4:
                     AtividadeQuatro atividadeQuatro = new AtividadeQuatro();
+                    atividadeQuatro.executar();
                     break;
                 case 5:
                     AtividadeCinco atividadeCinco = new AtividadeCinco();
