@@ -33,12 +33,15 @@ public class Main {
             switch (escolha) {
                 case 1:
                     AtividadeUm atividadeUm = new AtividadeUm();
+                    atividadeUm.executar();
                     break;
                 case 2:
                     AtividadeDois atividadeDois = new AtividadeDois();
+                    atividadeDois.executar();
                     break;
                 case 3:
                     AtividadeTres atividadeTres = new AtividadeTres();
+                    atividadeTres.executar();
                     break;
                 case 4:
                     AtividadeQuatro atividadeQuatro = new AtividadeQuatro();
